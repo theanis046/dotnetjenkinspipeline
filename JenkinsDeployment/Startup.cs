@@ -40,6 +40,7 @@ namespace JenkinsDeployment
                 app.UseHsts();
             }
 
+
             //app.UseHttpsRedirection();
             app.UseMvc();
         }
