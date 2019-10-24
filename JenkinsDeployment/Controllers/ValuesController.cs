@@ -10,7 +10,7 @@ namespace JenkinsDeployment.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/value
+        // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
